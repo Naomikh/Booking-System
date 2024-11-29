@@ -1,0 +1,11 @@
+
+The following is logged from get_action_title()
+in /home/makgolo2/domains/makgolokoeholdings.co.za/public_html/wp-content/plugins/simply-schedule-appointments/includes/class-revision-model.php line 771:
+
+... insert_revision_appointment_type()
+in /home/makgolo2/domains/makgolokoeholdings.co.za/public_html/wp-content/plugins/simply-schedule-appointments/includes/class-revision-model.php line 1062:
+
+...... insert_revision_updated_appointment_type()
+in /home/makgolo2/domains/makgolokoeholdings.co.za/public_html/wp-content/plugins/simply-schedule-appointments/includes/class-revision-model.php line 1154:
+[2024-11-26 18:33:07] Action `booking_layout_changed` does not exist in get_action_title
+
