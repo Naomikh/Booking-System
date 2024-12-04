@@ -5,7 +5,7 @@
 ******************************************************************************************
    *FEATURES
  
-Responsive Design: Optimized and efficient access on all devices (desktop, tablet, mobile).
+   Responsive Design: Optimized and efficient access on all devices (desktop, tablet, mobile).
 
    [About Form]: The teams details and the clinics physical address .
 
@@ -85,18 +85,7 @@ DEPLOYMENT
 # What the front page looks like so far
 
 ![Picture](https://github.com/Naomikh/Booking-System/upload/main/Pictures/Capture.PNG "Booking-System front page")
-
-***************************************************************************************
-
-# TODO
-
-* Gherkin-editor users won't understand regexp anchors. Display a '*', '?' or '-' instead.
-* Move autocomplete widget to ace-autocomplete project once it matures? May improve quality long term (more contributors).
-* Fix 404 for jquery-ui png images. Ideally generate jquery-ui css files from current theme.
-* Figure out how require-js works so we don't need to require so many files in our HTML.
-* Separate displaying of autocompleted text from its content - we may
-  want to indent (or use other visual style for) step examples to separate them from step definitions
-  
+ 
 ***************************************************************************************
 
 # Contact For Support
