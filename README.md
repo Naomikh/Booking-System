@@ -1,31 +1,29 @@
 # Booking-Sysem
 
-  This is a booking system [ Booking-System](https://github.com/Naomikh/Booking-System) - it uses the language php, the tool word press, a theme, plugins and MySequel. Achieved the goal of creating a website by installing a theme on based on [wordpress](https://wordpress.com/).
-
-******************************************************************************************
-* [Code completion](https://github.com/Naomikh/Booking-System)
+  This is a booking system [Booking-System](https://github.com/Naomikh/Booking-System) - it uses the language php, the tool word press, a theme, plugins and MySQl. Achieved the goal of creating a website by installing a theme on based on [wordpress](https://wordpress.com/).
   This repository contains the source files and documentation for a Physiotherapy Website built on WordPress.com. The website serves as an online platform for a physiotherapy clinic, providing information about services, booking appointments, and offering resources for patient education.
-
- *FEATURES
+******************************************************************************************
+   *FEATURES
  
-*Responsive Design: Optimized and efficient access on all devices (desktop, tablet, mobile).
+Responsive Design: Optimized and efficient access on all devices (desktop, tablet, mobile).
 
-*[About Form]: The teams details and the clinics physical address .
+   [About Form]: The teams details and the clinics physical address .
 
-*[Booking Form]: Allows users to schedule appointments online and sends a confirmation email.
+   [Booking Form]: Allows users to schedule appointments online and sends a confirmation email.
 
-*[Contact Form]: Get intouch with us form for easy communication with the clinic for inquiries or requesting a call back with    the address of the clinic.
+   [Contact Form]: Get intouch with us form for easy communication with the clinic for inquiries or requesting a call back with    the address of the clinic.
 
-*[Service Pages]: Detailed descriptions of physiotherapy treatments.
+   [Service Pages]: Detailed descriptions of physiotherapy treatments.
 
-*[More Services Button]: Educational content related to health, wellness, and physiotherapy.
+   [More Services Button]: Educational content related to health, wellness, and physiotherapy.
 
-*[Testimonials Form]: services and clients feedback.
+   [Testimonials Form]: services and clients feedback.
 
 ******************************************************************************************
 * TECHNOLOGY STACK
 
 WordPress: Content management system [wordpress](https://wordpress.com/).
+
 Theme: [Physiotherapy Booking System, Free] (put the theme link here).
 
 PLUGINS:
