@@ -1,37 +1,45 @@
 # Booking-Sysem
 
-This is a booking system [ Booking-System](https://github.com/Naomikh/Booking-System) - it uses the language php, the tool word press, a theme, plugins MySequel. It's based on [wordpress](https://wordpress.com/) achieved the goal of creating a booking system by using a them and you can install a theme using the guideliness [https://www.youtube.com/watch?v=NYswsA1YWME]. Also added a calender plugin in word press to successfully book an appointment and receive a confirmation email to both the patient and the the owner of the website using [https://www.hostinger.com/tutorials/wordpress/how-to-install-wordpress-plugins?utm_campaign=Generic-Tutorials-DSA|NT:Se|LO:Other-AFRICA&utm_medium=ppc&gad_source=1&gclid=CjwKCAiA9bq6BhAKEiwAH6bqoN716U7F2KAAUPMUYeNJ7ex-HfFMzgty56EWfeilFnYqd-LOd1bqaBoCggYQAvD_BwE] 
+  This is a booking system [ Booking-System](https://github.com/Naomikh/Booking-System) - it uses the language php, the tool word press, a theme, plugins and MySequel. Achieved the goal of creating a website by installing a theme on based on [wordpress](https://wordpress.com/).
 
 ******************************************************************************************
 * [Code completion](https://github.com/Naomikh/Booking-System)
-This repository contains the source files and documentation for a Physiotherapy Website built on WordPress. The website serves as an online platform for a physiotherapy clinic, providing information about services, booking appointments, and offering resources for patient education.
+  This repository contains the source files and documentation for a Physiotherapy Website built on WordPress.com. The website serves as an online platform for a physiotherapy clinic, providing information about services, booking appointments, and offering resources for patient education.
 
  *FEATURES
  
 *Responsive Design: Optimized and efficient access on all devices (desktop, tablet, mobile).
+
 *[About Form]: The teams details and the clinics physical address .
+
 *[Booking Form]: Allows users to schedule appointments online and sends a confirmation email.
-*[Contact Form]: Get intouch with us form for easy communication with the clinic for inquiries or requesting a call back with the address of the clinic.
+
+*[Contact Form]: Get intouch with us form for easy communication with the clinic for inquiries or requesting a call back with    the address of the clinic.
+
 *[Service Pages]: Detailed descriptions of physiotherapy treatments.
+
 *[More Services Button]: Educational content related to health, wellness, and physiotherapy.
+
 *[Testimonials Form]: services and clients feedback.
 
 ******************************************************************************************
 * TECHNOLOGY STACK
 
 WordPress: Content management system [wordpress](https://wordpress.com/).
-Theme: [Physiotherapy Booking System, purchased] (put the theme link here).
-Plugins: [Free calendaer booking plugin](https://wpbookingcalendar.com/), 
-[All in One SEO] for Search Engine optimization,
-[Google Analytics for WordPress by MonsterInsights],
-[Site Assistant] Provides guided onboarding and a Site assistant in the WordPress admin,
-[Softaculous Pro] Helps users get farmiliar with WordPress, 
-[WP Mail Logging] Logs each email sent by WordPress, 
-[WP Mail SMTP]Reconfigures the wp_mail() function to use Gmail/Mailgun/SendGrid/SMTP instead of the default mail(),
-[WP Responsive Menu] a mobile menu plugin that allows you to add a highly responsive menu to a WordPress site, 
-[WPForms Lite] WordPress friendly contact form plugin.
-WPForms: Creating forms (About, Booking, Contact, Services, Discover More Services, Testimonial).
-LiteSpeed Cache: For performance optimization.
+Theme: [Physiotherapy Booking System, Free] (put the theme link here).
+
+PLUGINS:
+
+[Booking Calender, Free](https://wpbookingcalendar.com/)
+
+[Responsive Menu, Free] a mobile menu plugin that allows you to add a highly responsive menu to a WordPress site,
+
+[WP Mail Logging, Free] Logs each email sent by WordPress, 
+
+[WP Mail SMTP, Free]Reconfigures the wp_mail() function to use Gmail/Mailgun/SendGrid/SMTP instead of the default mail(),
+
+[WPForms Lite, Free] WordPress friendly contact form plugin.
+
 ***************************************************************************************
 * INSTALLATION
 
@@ -94,4 +102,4 @@ DEPLOYMENT
 ***************************************************************************************
 
 # Contact For Support
-* naomikhoza888@gmail.com
+* physiotherapykhoza@gmail.com
