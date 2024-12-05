@@ -51,7 +51,7 @@ PLUGINS:
         define('DB_USER', 'your_database_user');
         define('DB_PASSWORD', 'your_database_password');
         define('DB_HOST', 'localhost');    
-  5.	Go to the browser and access the site eg. http://<hostname>/<sitename>
+  5.	Go to the browser and access the site eg. http://hostname/sitename
       
 
 
