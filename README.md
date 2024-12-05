@@ -83,7 +83,7 @@ PLUGINS:
 
 # What the front page looks like so far
 
-![Picture](https://github.com/Naomikh/Booking-System/tree/main/Pictures/mainForm.png "Booking-System front page")
+![Picture](https://github.com/Naomikh/Booking-System/blob/main/Pictures/mainForm.PNG "Booking-System front page")
  
 ***************************************************************************************
 
