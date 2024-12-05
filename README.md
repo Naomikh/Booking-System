@@ -39,22 +39,21 @@ PLUGINS:
 [WPForms Lite, Free] WordPress friendly contact form plugin.
 
 ***************************************************************************************
-* INSTALLATION
+* INSTALLATION *
 
-1.	Clone or download the repository:
-bash Copy code:
-git clone https://github.com/username/physiotherapy-website.git
-2.	Set up a local development environment using tools like Local by Flywheel, XAMPP, or MAMP.
-3.	Import the database:
-*	Import the .sql file located in the database/ directory into your WordPress database.
+1.	Download or clone the repository
+2.  Set up a local development environment for (MySQL and Apache). You can use tools like Local by Flywheel, XAMPP, or MAMP.
+3.	Create a database:  If using Xampp go to Myphp admin.
+*	Import the .sql file located in the root directory into your project.
 4.	Configure the wp-config.php file:
 *	Update database credentials:php Copy code
-define('DB_NAME', 'your_database_name');
-define('DB_USER', 'your_database_user');
-define('DB_PASSWORD', 'your_database_password');
-define('DB_HOST', 'localhost');
-5.	Upload the repository files to your WordPress installation directory.
-6.	Install and activate the required plugins via the WordPress admin dashboard.
+        define('DB_NAME', 'your_database_name');
+        define('DB_USER', 'your_database_user');
+        define('DB_PASSWORD', 'your_database_password');
+        define('DB_HOST', 'localhost');    
+  5.	Go to the browser and access the site eg. http://<hostname>/<sitename>
+      
+
 
 ***************************************************************************************
 CUSTOMIZATION
@@ -84,7 +83,7 @@ DEPLOYMENT
 
 # What the front page looks like so far
 
-![Picture](https://github.com/Naomikh/Booking-System/upload/main/Pictures/Capture.PNG "Booking-System front page")
+![Picture](https://github.com/Naomikh/Booking-System/tree/main/Pictures/mainForm.png "Booking-System front page")
  
 ***************************************************************************************
 
