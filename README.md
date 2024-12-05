@@ -47,10 +47,10 @@ PLUGINS:
 *	Import the .sql file located in the root directory into your project.
 4.	Configure the wp-config.php file:
 *	Update database credentials:php Copy code
-        define('DB_NAME', 'your_database_name');
-        define('DB_USER', 'your_database_user');
-        define('DB_PASSWORD', 'your_database_password');
-        define('DB_HOST', 'localhost');    
+       * define('DB_NAME', 'your_database_name');
+       * define('DB_USER', 'your_database_user');
+       * define('DB_PASSWORD', 'your_database_password');
+       * define('DB_HOST', 'localhost');    
   5.	Go to the browser and access the site eg. http://hostname/sitename
       
 
