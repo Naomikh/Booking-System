@@ -3,7 +3,7 @@
   This is a booking system [Booking-System](https://github.com/Naomikh/Booking-System) - it uses the language php, the tool word press, a theme, plugins and MySQl. Achieved the goal of creating a website by installing a theme on based on [wordpress](https://wordpress.com/).
   This repository contains the source files and documentation for a Physiotherapy Website built on WordPress.com. The website serves as an online platform for a physiotherapy clinic, providing information about services, booking appointments, and offering resources for patient education.
 ******************************************************************************************
-   *FEATURES
+  # FEATURES 
  
    Responsive Design: Optimized and efficient access on all devices (desktop, tablet, mobile).
 
@@ -20,7 +20,7 @@
    [Testimonials Form]: services and clients feedback.
 
 ******************************************************************************************
-* TECHNOLOGY STACK
+# TECHNOLOGY STACK
 
 WordPress: Content management system [wordpress](https://wordpress.com/).
 
@@ -39,7 +39,7 @@ PLUGINS:
 [WPForms Lite, Free] WordPress friendly contact form plugin.
 
 ***************************************************************************************
-* INSTALLATION *
+# INSTALLATION 
 
 1.	Download or clone the repository
 2.  Set up a local development environment for (MySQL and Apache). You can use tools like Local by Flywheel, XAMPP, or MAMP.
@@ -56,7 +56,7 @@ PLUGINS:
 
 
 ***************************************************************************************
-CUSTOMIZATION
+# CUSTOMIZATION
 
 •	Theme Customization: Modify the theme through the WordPress admin panel under Appearance > Customize.
 •	Content Updates: Update text, images, and other content via the WordPress dashboard.
@@ -64,7 +64,7 @@ CUSTOMIZATION
 
 ***************************************************************************************
 
-Documentation
+# DOCUMENTATION
 •	Refer to the WordPress Codex for general guidance.
 •	Detailed plugin documentation is available on their respective websites:
     	Elementor Docs
@@ -73,7 +73,7 @@ Documentation
 
 ***************************************************************************************
 
-DEPLOYMENT
+# DEPLOYMENT
 
 1.	Export the website using a plugin like All-in-One WP Migration or manually via FTP.
 2.	Upload to a live server with the required database and WordPress setup.
@@ -88,4 +88,4 @@ DEPLOYMENT
 ***************************************************************************************
 
 # Contact For Support
-* physiotherapykhoza@gmail.com
+# physiotherapykhoza@gmail.com
