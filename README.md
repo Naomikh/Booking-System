@@ -2,10 +2,10 @@
 
 This ois a booking system repository that contains all the necessary files and instructions to set up and run a WordPress website locally for development purposes. Additionally, it includes configurations for the following plugins to enhance functionality:
   
- #  1. Responsive Menu
- #  2. Booking Calendar
- #  3. WP Mail SMTP
- #  4. WP Mail Logging
+   1. Responsive Menu
+   2. Booking Calendar
+   3. WP Mail SMTP
+   4. WP Mail Logging
 ******************************************************************************************
 # INTRODUCTION
 
