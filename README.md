@@ -32,8 +32,6 @@ This is a booking system repository that contains all the necessary files and in
 
        *[Service Pages]: Detailed descriptions of physiotherapy treatments.*
 
-       *[More Services Button]: Educational content related to health, wellness, and physiotherapy.*
-
        *[Testimonials Form]: services and clients feedback.*
 
 ***************************************************************************************
