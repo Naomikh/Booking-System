@@ -56,7 +56,7 @@ This is a booking system repository that contains all the necessary files and in
   OR 
   Alternatively, you can use an all-in-one local development tool like XAMPP, MAMP, or Local by Flywheel.
      
-# PLUGINS:
+# PLUGINS
 
   1. [Responsive Menu, Free] 
    * Provides a user-friendly mobile navigation experience. 
