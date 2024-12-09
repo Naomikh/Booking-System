@@ -115,12 +115,12 @@ Theme: [Physiotherapy Booking System, Free] (put the theme link here).
    2. Follow the WordPress installation Wizard:
    * Select your preferred language. *
    * Enter the database details: *
-     ** Database Name: wordpress_site **
-     ** Username: root (or your MySQL username) **
-     ** Password: Leave blank for XAMPP or enter your MySQL password. **
-     ** Database Host: localhost **
-     ** Table Prefix: wp_ **
-     ** Complete the setup by creating an admin account and setting up your site name. **
+     * Database Name: wordpress_site 
+     * Username: root (or your MySQL username) 
+     * Password: Leave blank for XAMPP or enter your MySQL password. 
+     * Database Host: localhost 
+     * Table Prefix: wp_ 
+     * Complete the setup by creating an admin account and setting up your site name. 
      
  # Step 5: Install Plugins
  
