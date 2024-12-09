@@ -147,8 +147,8 @@ Theme: [Physiotherapy Booking System, Free] (put the theme link here).
 
 # FOLDER STRUCTURE
 
-**wordpress-website/
-**├── wp-content/        # Contains themes, plugins, and uploads
+wordpress-website/
+├── wp-content/        # Contains themes, plugins, and uploads
 │   ├── plugins/       # Custom and downloaded plugins
 │   ├── themes/        # Custom and downloaded themes
 ├── wp-config.php      # WordPress configuration file
