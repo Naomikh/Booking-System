@@ -22,19 +22,19 @@ This is a booking system repository that contains all the necessary files and in
 *   Easy-to-setup local development environment. 
  *  Configurable database and WordPress settings. 
     
-   *Responsive Design: Optimized and efficient access on all devices (desktop, tablet, mobile).*
+       *Responsive Design: Optimized and efficient access on all devices (desktop, tablet, mobile).*
 
-   *[About Form]: The teams details and the clinics physical address .*
+       *[About Form]: The teams details and the clinics physical address .*
 
-   *[Booking Form]: Allows users to schedule appointments online and sends a confirmation email.*
+       *[Booking Form]: Allows users to schedule appointments online and sends a confirmation email.*
 
-   *[Contact Form]: Get intouch with us form for easy communication with the clinic for inquiries or requesting a call back with    the address of the clinic.*
+       *[Contact Form]: Get intouch with us form for easy communication with the clinic for inquiries or requesting a call back with    the address of the clinic.*
 
-   *[Service Pages]: Detailed descriptions of physiotherapy treatments.*
+       *[Service Pages]: Detailed descriptions of physiotherapy treatments.*
 
-   *[More Services Button]: Educational content related to health, wellness, and physiotherapy.*
+       *[More Services Button]: Educational content related to health, wellness, and physiotherapy.*
 
-   *[Testimonials Form]: services and clients feedback.*
+       *[Testimonials Form]: services and clients feedback.*
 
 ***************************************************************************************
 #  PREREQUISITES
