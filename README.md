@@ -22,19 +22,19 @@ This ois a booking system repository that contains all the necessary files and i
 *   Easy-to-setup local development environment. *
  *  Configurable database and WordPress settings. *
     
-   Responsive Design: Optimized and efficient access on all devices (desktop, tablet, mobile).
+   *Responsive Design: Optimized and efficient access on all devices (desktop, tablet, mobile).*
 
-   [About Form]: The teams details and the clinics physical address .
+   *[About Form]: The teams details and the clinics physical address .*
 
-   [Booking Form]: Allows users to schedule appointments online and sends a confirmation email.
+   *[Booking Form]: Allows users to schedule appointments online and sends a confirmation email.*
 
-   [Contact Form]: Get intouch with us form for easy communication with the clinic for inquiries or requesting a call back with    the address of the clinic.
+   *[Contact Form]: Get intouch with us form for easy communication with the clinic for inquiries or requesting a call back with    the address of the clinic.*
 
-   [Service Pages]: Detailed descriptions of physiotherapy treatments.
+   *[Service Pages]: Detailed descriptions of physiotherapy treatments.*
 
-   [More Services Button]: Educational content related to health, wellness, and physiotherapy.
+   *[More Services Button]: Educational content related to health, wellness, and physiotherapy.*
 
-   [Testimonials Form]: services and clients feedback.
+   *[Testimonials Form]: services and clients feedback.*
 
 ******************************************************************************************
 
@@ -49,8 +49,6 @@ Theme: [Physiotherapy Booking System, Free] (put the theme link here).
 
 # PLUGINS:
 
-
-# Responsive Menu
   1. [Responsive Menu, Free] 
    * Provides a user-friendly mobile navigation experience. *
    * Allows customizations for menus on mobile and desktop. *
@@ -58,18 +56,21 @@ Theme: [Physiotherapy Booking System, Free] (put the theme link here).
   2. [Booking Calender, Free](https://wpbookingcalendar.com/)
   *  Enables users to book appointments and manage bookings easily. *
 *    Supports multiple configurations for scheduling. *
+
   3. [WP Mail SMTP, Free]
  *  Configures WordPress to send emails using a secure SMTP service. *
  *  Ensures reliable email delivery using Gmail/Mailgun/SendGrid/SMTP instead of the default mail(). *
+ 
   4. [WP Mail Logging, Free]
  *  Logs all outgoing emails sent from your WordPress website. *
 *   Useful for debugging and tracking email delivery issues.  *
+
  5. [WPForms Lite, Free] 
   * WordPress friendly contact form plugin. *
 
 ***************************************************************************************
 #  PREREQUISITES
-#  Before you begin, ensure you have the following installed on your system:
+  Before you begin, ensure you have the following installed on your system:
 
   1. PHP (v7.4 or later)
   2. MySQL/MariaDB
@@ -108,9 +109,7 @@ Theme: [Physiotherapy Booking System, Free] (put the theme link here).
        * define('DB_HOST', 'localhost');    
  4. Note down the database name, username, and password for the next step.
  
- 
- 
-#  Step 4: Configure WordPress
+  #  Step 4: Configure WordPress
 
    1. Navigate to the cloned repository folder in your browser (e.g., http://localhost/wordpress-website).
    2. Follow the WordPress installation Wizard:
@@ -148,8 +147,8 @@ Theme: [Physiotherapy Booking System, Free] (put the theme link here).
 
 # FOLDER STRUCTURE
 
-wordpress-website/
-├── wp-content/        # Contains themes, plugins, and uploads
+**wordpress-website/
+**├── wp-content/        # Contains themes, plugins, and uploads
 │   ├── plugins/       # Custom and downloaded plugins
 │   ├── themes/        # Custom and downloaded themes
 ├── wp-config.php      # WordPress configuration file
