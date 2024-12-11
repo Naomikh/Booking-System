@@ -34,15 +34,12 @@ This is a booking system repository that contains all the necessary files and in
 
        *[Testimonials Form]: services and clients feedback.*
 
-***************************************************************************************
-#  PREREQUISITES
-
-*   TECHNOLOGY STACK
+****************************************************************************************
+#   TECHNOLOGY STACK
      
-     WordPress: Content management system [wordpress](https://wordpress.com/).
-     Theme: [Physiotherapy Booking System, Free] (put the theme link here).
-     
-     
+   WordPress: Content management system [wordpress](https://wordpress.com/).
+   Theme: [Physiotherapy Booking System, Free] (put the theme link here).
+          
   Before you begin, ensure you have the following installed on your system:
 
   1. PHP (v7.4 or later)
@@ -57,23 +54,23 @@ This is a booking system repository that contains all the necessary files and in
 # PLUGINS
 
   1. [Responsive Menu, Free](https://responsive.menu/?utm_source=readme&utm_medium=plugin&utm_campaign=reponsivemenu_plugin)
-   * Provides a user-friendly mobile navigation experience. 
-   * Allows customizations for menus on mobile and desktop. 
+*    Provides a user-friendly mobile navigation experience. 
+ *   Allows customizations for menus on mobile and desktop. 
    
   2. [Booking Calender, Free](https://wpbookingcalendar.com/)
-  *  Enables users to book appointments and manage bookings easily. 
+*    Enables users to book appointments and manage bookings easily. 
 *    Supports multiple configurations for scheduling. 
 
   3. [WP Mail SMTP, Free](https://wpmailsmtp.com/docs/a-complete-guide-to-wp-mail-smtp-mailers/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin&utm_content=readme)
- *  Configures WordPress to send emails using a secure SMTP service. 
- *  Ensures reliable email delivery using Gmail/Mailgun/SendGrid/SMTP instead of the default mail(). 
+ *   Configures WordPress to send emails using a secure SMTP service. 
+ *   Ensures reliable email delivery using Gmail/Mailgun/SendGrid/SMTP instead of the default mail(). 
  
   4. [WP Mail Logging, Free](https://wordpress.org/plugins/wp-mail-logging/)
- *  Logs all outgoing emails sent from your WordPress website. 
-*   Useful for debugging and tracking email delivery issues.  
+*    Logs all outgoing emails sent from your WordPress website. 
+*    Useful for debugging and tracking email delivery issues.  
 
- 5. [WPForms Lite, Free](https://wordpress.org/plugins/wpforms-lite/)
-  * WordPress friendly contact form plugin. 
+ 5.  [WPForms Lite, Free](https://wordpress.org/plugins/wpforms-lite/)
+  *  WordPress friendly contact form plugin. 
 
 ***************************************************************************************
 # INSTALLATION 
@@ -135,7 +132,7 @@ This is a booking system repository that contains all the necessary files and in
    Open phpMyAdmin, find the wp_options table in your database.
    Change the values of siteurl and home to http://localhost/[your-folder-name]
 
-  # Step 6: SITE CONFIGURATION
+  # SITE CONFIGURATION
 
 If the menu on your WordPress website is redirecting to the XAMPP dashboard instead of the expected page, it's usually an indication that there is a misconfiguration in the site's URL or an issue with your server settings, do the following:
 
@@ -145,8 +142,8 @@ Sometimes, the issue occurs because the WordPress Address (URL) and Site Address
   1. Login to the WordPress Admin Panel.
   2. Go to Settings > General.
   3. Check the values of the following fields:
-    * WordPress Address (URL): This should be set to http://localhost/your-wordpress-folder (or http://127.0.0.1/your-  wordpress-folder if that's your setup).
-   * Site Address (URL): This should be the same as the WordPress Address, or if your site is set up in a subfolder, it should reflect that folder (e.g., http://localhost/your-site-name).
+ *   WordPress Address (URL): This should be set to http://localhost/your-wordpress-folder (or http://127.0.0.1/your-             wordpress-folder if that's your setup).
+*     Site Address (URL): This should be the same as the WordPress Address, or if your site is set up in a subfolder, it should       reflect that folder (e.g., http://localhost/your-site-name).
    
  Make sure there are no extra slashes at the end of the URLs, as this can cause issues.
   
@@ -171,7 +168,7 @@ After correcting the links, click Save Menu.
 In some cases, the .htaccess file in your WordPress directory can cause redirects if it's misconfigured. The .htaccess file controls how URLs are handled and redirected on the server.
 
 1. Check the .htaccess file:
-  * Go to your WordPress directory (C:\xampp\htdocs\your-site-name\).
+  * Go to your WordPress directory (e.g., C:\xampp\htdocs\your-site-name\).
   * Look for the .htaccess file. If it's not visible, make sure that hidden files are displayed.
 
 2. Reset the .htaccess file:
@@ -197,27 +194,6 @@ Sometimes, XAMPP can be set to serve its default dashboard page on certain URLs,
 2. Ensure WordPress Files Are in the Correct Directory:
   * Ensure that your WordPress files (like index.php, wp-config.php, etc.) are located in the correct folder inside htdocs and not in a subfolder where XAMPP’s default page could be served.
 
-# Step 6: Check for Incorrect Theme or Plugin Behavior
-  
-   Sometimes, plugins or themes can cause redirection issues if they are misconfigured or have conflicting settings.
-
-1. Deactivate Plugins:
-  * Go to Plugins > Installed Plugins and deactivate all plugins.
-  * After deactivating plugins, check if the issue persists.
-  * If the issue is resolved, reactivate the plugins one by one to find the culprit.
-
-2. Switch to a Default WordPress Theme:
-  * If the problem persists after deactivating plugins, try switching to a default WordPress theme (like Twenty Twenty-Three).
-  * Go to Appearance > Themes, activate a default theme, and test if the issue persists.
-# Step 7: Debugging with Browser Developer Tools
-  
-  If the issue still persists, use your browser's Developer Tools to inspect the network requests and see where the redirects are happening.
-
-   1. Right-click on your webpage and choose Inspect (in Chrome or Firefox).
-   2. Go to the Network tab.
-   3. Click the menu items on your site and observe the network activity. Check if any of the links are being redirected to the    XAMPP dashboard.
-   4. This can give you clues about which resource or URL is causing the issue.
-
 #   SUMMARY
  
  To fix the issue of your WordPress menu redirecting to the XAMPP dashboard:
@@ -225,11 +201,11 @@ Sometimes, XAMPP can be set to serve its default dashboard page on certain URLs,
  1. Verify that your WordPress Address (URL) and Site Address (URL) are correct in the General Settings.
  2. Check the menu links in Appearance > Menus to make sure they are correct.
  3. Reset or regenerate the .htaccess file.
- 4. Ensure your XAMPP configuration points to the correct WordPress directory.
- 5. Deactivate plugins or switch to a default theme to rule out conflicts.
- 6. Use Developer Tools to inspect network requests and identify where the redirect is happening.
  ![Picture](https://github.com/Naomikh/Booking-System/blob/main/Pictures/wordPressModule.PNG "Wordpressmodule rewrite")
   
+ 4. Ensure your XAMPP configuration points to the correct WordPress directory.
+ 5. Deactivate plugins or switch to a default theme to rule out conflicts.
+
  * For every button, update the button to point to your local website e.g:
  ![Picture](https://github.com/Naomikh/Booking-System/blob/main/Pictures/button.PNG ".htacces file")
  
@@ -247,24 +223,6 @@ Sometimes, XAMPP can be set to serve its default dashboard page on certain URLs,
  ![Picture](https://github.com/Naomikh/Booking-System/blob/main/Pictures/TREEMAIN.PNG "Tree")
 ********************************************************************************************
 
-# CUSTOMIZATION
-
-•	Theme Customization: Modify the theme through the WordPress admin panel under Appearance > Customize.
-•	Content Updates: Update text, images, and other content via the WordPress dashboard.
-•	Plugins: Activate/deactivate plugins as needed to enable additional functionality
-
-**********************************************************************************************
-
-# DOCUMENTATION
-•	Refer to the WordPress Codex for general guidance.
-•	Detailed plugin documentation is available on their respective websites:
-    	Elementor Docs
-    	WPForms Documentation
-    	WooCommerce Appointments Guide.
-
-********************************************************************************************
-
-
 # DEPLOYMENT
 
 1.	Export the website using a plugin like All-in-One WP Migration or manually via FTP.
@@ -278,6 +236,7 @@ Sometimes, XAMPP can be set to serve its default dashboard page on certain URLs,
 ![Picture](https://github.com/Naomikh/Booking-System/blob/main/Pictures/mainForm.PNG "Booking-System front page")
  
 ***************************************************************************************
+Your website should look like this:
 
 # Contact For Support
   physiotherapykhoza@gmail.com
