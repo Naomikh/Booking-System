@@ -201,8 +201,6 @@ Sometimes, XAMPP can be set to serve its default dashboard page on certain URLs,
  1. Verify that your WordPress Address (URL) and Site Address (URL) are correct in the General Settings.
  2. Check the menu links in Appearance > Menus to make sure they are correct.
  3. Reset or regenerate the .htaccess file.
- ![Picture](https://github.com/Naomikh/Booking-System/blob/main/Pictures/wordPressModule.PNG "Wordpressmodule rewrite")
-  
  4. Ensure your XAMPP configuration points to the correct WordPress directory.
  5. Deactivate plugins or switch to a default theme to rule out conflicts.
 
