@@ -84,7 +84,7 @@ This is a booking system repository that contains all the necessary files and in
 2. Run the following command:
    https://github.com/Naomikh/Booking-System.git
 3. Navigate into the project folder:
-   cd wordpress-website
+   cd <wordpress-website>
    
  # Step 2: Install Local Server
  
