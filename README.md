@@ -220,7 +220,7 @@ Sometimes, XAMPP can be set to serve its default dashboard page on certain URLs,
 ************************************************************************************************
 
 # FOLDER STRUCTURE
- ![Picture](https://github.com/Naomikh/Booking-System/blob/main/Pictures/TREEMAIN.PNG "Tree")
+ ![Picture](https://github.com/Naomikh/Booking-System/blob/main/Pictures/treeOriginal.PNG "Tree")
 ********************************************************************************************
 
 # DEPLOYMENT
