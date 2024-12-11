@@ -121,11 +121,13 @@ This is a booking system repository that contains all the necessary files and in
  
    1. Log in to the WordPress admin panel at http://localhost/wordpress-website/wp-admin.
    2. Navigate to Plugins > Add New.
-   3.Search for and install the following plugins:
+   3. Search for and install the following plugins:
+   
       Responsive Menu: Download from WordPress.org. 
       Booking Calendar: Download from WordPress.org. 
       WP Mail SMTP: Download from WordPress.org. 
       WP Mail Logging: Download from WordPress.org. 
+      
    4. Activate all installed plugins.
    5. Configure each plugin as needed via their respective settings pages in the admin panel.
        
