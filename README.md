@@ -68,11 +68,11 @@ This is a booking system repository that contains all the necessary files and in
  *  Configures WordPress to send emails using a secure SMTP service. 
  *  Ensures reliable email delivery using Gmail/Mailgun/SendGrid/SMTP instead of the default mail(). 
  
-  4. [WP Mail Logging, Free]
+  4. [WP Mail Logging, Free](https://wordpress.org/plugins/wp-mail-logging/)
  *  Logs all outgoing emails sent from your WordPress website. 
 *   Useful for debugging and tracking email delivery issues.  
 
- 5. [WPForms Lite, Free] 
+ 5. [WPForms Lite, Free](https://wordpress.org/plugins/wpforms-lite/)
   * WordPress friendly contact form plugin. 
 
 ***************************************************************************************
@@ -227,19 +227,8 @@ Sometimes, XAMPP can be set to serve its default dashboard page on certain URLs,
  5. Deactivate plugins or switch to a default theme to rule out conflicts.
  6. Use Developer Tools to inspect network requests and identify where the redirect is happening.
  ![Picture](https://github.com/Naomikh/Booking-System/blob/main/Pictures/wordPressModule.PNG "Wordpressmodule rewrite")
- 
-# BEGIN WordPress
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
-# END WordPress
- 
- For every button, update the button to point to your local website e.g:
+  
+ * For every button, update the button to point to your local website e.g:
  ![Picture](https://github.com/Naomikh/Booking-System/blob/main/Pictures/button.PNG ".htacces file")
  
 **********************************************************************************************
@@ -253,15 +242,7 @@ RewriteRule . /index.php [L]
 ************************************************************************************************
 
 # FOLDER STRUCTURE
-
-wordpress-website/
-├── wp-content/        # Contains themes, plugins, and uploads
-│   ├── plugins/       # Custom and downloaded plugins
-│   ├── themes/        # Custom and downloaded themes
-├── wp-config.php      # WordPress configuration file
-├── index.php          # Entry point for WordPress
-├── .htaccess          # URL rewriting rules
-└── other WordPress core files...
+ ![Picture](https://github.com/Naomikh/Booking-System/blob/main/Pictures/TREEMAIN.PNG "Tree")
 ********************************************************************************************
 
 # CUSTOMIZATION
