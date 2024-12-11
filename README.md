@@ -56,7 +56,7 @@ This is a booking system repository that contains all the necessary files and in
      
 # PLUGINS
 
-  1. [Responsive Menu, Free] 
+  1. [Responsive Menu, Free](https://responsive.menu/?utm_source=readme&utm_medium=plugin&utm_campaign=reponsivemenu_plugin)
    * Provides a user-friendly mobile navigation experience. 
    * Allows customizations for menus on mobile and desktop. 
    
@@ -64,7 +64,7 @@ This is a booking system repository that contains all the necessary files and in
   *  Enables users to book appointments and manage bookings easily. 
 *    Supports multiple configurations for scheduling. 
 
-  3. [WP Mail SMTP, Free]
+  3. [WP Mail SMTP, Free](https://wpmailsmtp.com/docs/a-complete-guide-to-wp-mail-smtp-mailers/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin&utm_content=readme)
  *  Configures WordPress to send emails using a secure SMTP service. 
  *  Ensures reliable email delivery using Gmail/Mailgun/SendGrid/SMTP instead of the default mail(). 
  
