@@ -77,11 +77,12 @@ This is a booking system repository that contains all the necessary files and in
 
 #  Step 1 : Clone the Repository
 
-1. Open your terminal and navigate to the directory where you want to clone the project.
+1. Download the Zip file to your directory by clicking on [Code] and [Download Zip] or Open your terminal and navigate to the directory where you want to clone the project.
 2. Run the following command:
    https://github.com/Naomikh/Booking-System.git
 3. Navigate into the project folder:
-   cd wordpress-website
+   cd wordpress-websit
+   - If downloaded the Zip file, extract to prefered folder.
    
  # Step 2: Install Local Server
  
@@ -91,19 +92,20 @@ This is a booking system repository that contains all the necessary files and in
  # Step 3: Set Up The Database
  
  1. Start your local server and open phpMyAdmin (usually accessible at http://localhost/phpmyadmin).
- 2.	Create a database (e.g., wordpress-website) :  If using Xampp go to Myphp admin.
-*	Import the .sql file located in the root directory into your project.
+ 2.	Create a database and user (e.g., wordpress-website) :  If using Xampp go to Myphp admin.
+*	Note down the database name, username, and password for the next step.
+ 
  3.	Configure the wp-config.php file:
 *	Update database credentials:php Copy code
        * define('DB_NAME', 'your_database_name');
        * define('DB_USER', 'your_database_user');
        * define('DB_PASSWORD', 'your_database_password');
        * define('DB_HOST', 'localhost');    
- 4. Note down the database name, username, and password for the next step.
+       
+ 4. Import the .sql file located in the root directory into your project.
  
   #  Step 4: Configure WordPress
 
-   1. Navigate to the cloned repository folder in your browser (e.g., http://localhost/wordpress-website).
    2. Follow the WordPress installation Wizard:
    * Select your preferred language. 
    * Enter the database details: 
@@ -193,6 +195,8 @@ Sometimes, XAMPP can be set to serve its default dashboard page on certain URLs,
 
 2. Ensure WordPress Files Are in the Correct Directory:
   * Ensure that your WordPress files (like index.php, wp-config.php, etc.) are located in the correct folder inside htdocs and not in a subfolder where XAMPP’s default page could be served.
+  
+3 . Navigate to the cloned repository folder in your browser (e.g., http://localhost/wordpress-website).
 
 #   SUMMARY
  
