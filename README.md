@@ -231,7 +231,7 @@ Sometimes, XAMPP can be set to serve its default dashboard page on certain URLs,
  
 ***************************************************************************************
 # Your website should look like this:
-Website: [Physiotherapy Booking System, Free] (https://makgolokoe.co.za)
+Website: [Physiotherapy Booking System, Free] (https://makgolokoeholdings.co.za)
 
 # Contact For Support
   physiotherapykhoza@gmail.com
