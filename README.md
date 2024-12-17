@@ -38,8 +38,8 @@ This is a booking system repository that contains all the necessary files and in
 #   TECHNOLOGY STACK
      
    WordPress: Content management system [wordpress](https://wordpress.com/).
-   Theme: [Physiotherapy Booking System, Free] (put the theme link here).
-          
+   Theme: [Physiotherapy Booking System, Free](ExtendableVersion: 2.0.14)
+             
   Before you begin, ensure you have the following installed on your system:
 
   1. PHP (v7.4 or later)
@@ -94,15 +94,17 @@ This is a booking system repository that contains all the necessary files and in
  1. Start your local server and open phpMyAdmin (usually accessible at http://localhost/phpmyadmin).
  2.	Create a database and user (e.g., wordpress-website) :  If using Xampp go to Myphp admin.
 *	Note down the database name, username, and password for the next step.
- 
- 3.	Configure the wp-config.php file:
+ 3. Go to the downloaded booking system and look for > makgolo2_wpdb open in notepad and replace > https://makgolokoe.co.za with your local  website eg. http://local/yourwebsite.co.za.
+ 4. Import the .sql file located in the root directory into your project.
+
+ 5.	Configure the wp-config.php file:
 *	Update database credentials:php Copy code
        * define('DB_NAME', 'your_database_name');
        * define('DB_USER', 'your_database_user');
        * define('DB_PASSWORD', 'your_database_password');
        * define('DB_HOST', 'localhost');    
        
- 4. Import the .sql file located in the root directory into your project.
+ 
  
   #  Step 4: Configure WordPress
 
@@ -116,20 +118,7 @@ This is a booking system repository that contains all the necessary files and in
      * Table Prefix: wp_ 
      * Complete the setup by creating an admin account and setting up your site name. 
      
- # Step 5: Install Plugins
- 
-   1. Log in to the WordPress admin panel at http://localhost/wordpress-website/wp-admin.
-   2. Navigate to Plugins > Add New.
-   3. Search for and install the following plugins:
-   
-      Responsive Menu: Download from WordPress.org. 
-      Booking Calendar: Download from WordPress.org. 
-      WP Mail SMTP: Download from WordPress.org. 
-      WP Mail Logging: Download from WordPress.org. 
-      
-   4. Activate all installed plugins.
-   5. Configure each plugin as needed via their respective settings pages in the admin panel.
-       
+  
  # Step 6: Update the site URLs:
    Open phpMyAdmin, find the wp_options table in your database.
    Change the values of siteurl and home to http://localhost/[your-folder-name]
@@ -150,6 +139,9 @@ Sometimes, the issue occurs because the WordPress Address (URL) and Site Address
  Make sure there are no extra slashes at the end of the URLs, as this can cause issues.
   
   4. If necessary, save the changes after adjusting the URLs.
+  
+  5. In wordpress go to > http://local/yoursite/wp-admin and enter credentials. 
+    *  Go to Dashboard > settings > pages > Allpages > about > edit and click on (save). Repeat for all pages.
   
 # Step 2: Clear Your Browser Cache
 Sometimes, browser cache may cause issues by loading outdated pages or URLs. Clear your browser cache or try loading your website in Incognito mode to ensure you're not seeing cached data.
@@ -238,7 +230,8 @@ Sometimes, XAMPP can be set to serve its default dashboard page on certain URLs,
 ![Picture](https://github.com/Naomikh/Booking-System/blob/main/Pictures/mainForm.PNG "Booking-System front page")
  
 ***************************************************************************************
-Your website should look like this:
+# Your website should look like this:
+Website: [Physiotherapy Booking System, Free] (https://makgolokoe.co.za)
 
 # Contact For Support
   physiotherapykhoza@gmail.com
